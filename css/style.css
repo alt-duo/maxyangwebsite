@@ -752,7 +752,7 @@ video {
 
 .bg-main3 {
   --tw-bg-opacity: 1;
-  background-color: rgb(204 172 143 / var(--tw-bg-opacity));
+  background-color: rgb(255 190 152 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
