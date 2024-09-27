@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!--npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projects and achievments</title>
-    <meta name="description" content="Max Yang is a 14-year-old boy from Lake Zurich who plays a violin and programs code.">
+    <meta name="description" content="Max Yang is a 15-year-old boy from Lake Zurich who plays a violin and programs code.">
 
     <link rel="icon" type="image/png" sizes="512x512" href="images/favicon-512x512.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -21,15 +20,6 @@
 </head>
 
 <body class = "animate-in">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NE8WSYJKWR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NE8WSYJKWR');
-</script>
 <div class="flex flex-col h-screen justify-between ">
 <header class="bg-main3">
     
@@ -84,85 +74,6 @@
 </div>
 </div>
 </div>
-<style>
-  .marquee {
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  .marquee span {
-    display: inline-block;
-    font-size: 20px;
-    position: relative;
-  color: #0000;
-    left: 100%;
-  
-    animation: marquee 10.0s linear infinite;
-  }
-  .marquee:hover span {
-    animation-play-state: paused;
-  }
-  
-  .marquee span:nth-child(1) {
-    animation-delay: 0s;
-  }
-  .marquee span:nth-child(2) {
-    animation-delay: 0.4s;
-  }
-  .marquee span:nth-child(3) {
-    animation-delay: 0.8s;
-  }
-  .marquee span:nth-child(4) {
-    animation-delay: 1.2s;
-  }
-  .marquee span:nth-child(5) {
-    animation-delay: 1.6s;
-  }
-  .marquee span:nth-child(6) {
-    animation-delay: 2.0s;
-  }
-  .marquee span:nth-child(7) {
-    animation-delay: 2.4s;
-  }
-  .marquee span:nth-child(8) {
-    animation-delay: 2.6s;
-  }
-  .marquee span:nth-child(9) {
-    animation-delay: 2.8s;
-  }
-  .marquee span:nth-child(10) {
-    animation-delay: 3.2s;
-  }
-  .marquee span:nth-child(11) {
-    animation-delay: 3.6s;
-  }
-  .marquee span:nth-child(12) {
-    animation-delay: 4.0s;
-  }
-  
-  
-  @keyframes marquee {
-    0%   { left: 100%; }
-    100% { left: -100%; }
-  }
-  </style>
-  <p class="marquee">
-    <span>max yang</span>
-    <span> | </span>
-    <span>max yang</span>
-    <span> | </span>
-  <span>max yang</span>
-    <span> | </span>
-    <span>max yang</span>
-    <span> | </span>
-  <span>max yang</span>
-    <span> | </span>
-    <span>max yang</span>
-    <span> | </span>
-  
-  </p>
-
 </header>
 
     
@@ -329,31 +240,35 @@ class="widescreen:section-min-height w-auto h-auto tallscreen:section-min-height
 id="hero"
 class="widescreen:section-min-height w-auto h-auto tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row"
 >
-</article>
-<style>
-  img {
-    -drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    border-radius: 0%;
-
-  }
+<article class="sm:w-1/2 mx-auto m-auto">
+  <style>
+    img {
+      -drag: none;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-drag: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
   
-</style>
-<img class="w-1/2 h-1/2 mx-auto rounded-xl" src="images/ucsd.jpg" alt="Inside of a lab at UCSD's IEM institute." />
+    }
+    
+  </style>
+ <img class = "w-1/2 h-1/2 mx-auto rounded-xl" src="images/ucsd.jpg">
+</article>
+
+<article class="sm:w-1/2 mx-auto">
+  <h2 class="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
+    >research intern at IEM UCSD</h2>
+<p
+  class="mt-4  gap-auto max-w-md text-center text-xl text-slate-700 dark:text-slate-400 sm:text-left"
+>
+In the summer of 2023, I had the honor of interning in the Institute of Engineering in Medicine at UCSD under Dr. Linda Shi. In my internship, I did lab tests and researched about a new NAV 1.8 suppressor that is not yet in the market, doing tests to mice Dorsal Root Ganglion cells and also to PC-12 cells. This was an entirely new experience to me, and it widened my perspective in the medical field.</p>
+<p
+  class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left"
+>
+</p>
+</article>
 </section>
-<article class="sm:w-1/2 mx-auto text-center">
-    <h1 class="font-extrabold text-transparent text-center text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
-      >Research Intern at IEM UCSD</h1>
-  <p
-    class="text-transparent text-left mx-auto text-xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
-  >
-    In the summer of 2023, I had the honor of interning in the Institute of Engineering in Medicine at UCSD under Dr. Linda Shi. In my internship, I did lab tests and researched about a new NAV 1.8 suppressor that is not yet in the market, doing tests to mice Dorsal Root Ganglion cells and also to PC-12 cells. This was an entirely new experience to me, and it widened my perspective in the medical field.  </p>
-
-
 <section
 id="hero"
 class="widescreen:section-min-height w-auto h-auto tallscreen:section-min-height mb-12 flex scroll-mt-40 items-center justify-center gap-8 p-6 sm:flex-row"
