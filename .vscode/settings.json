@@ -1,4 +1,7 @@
 {
     "discord.enabled": true,
-    "discord.enable": false
+    "discord.enable": false,
+    "cSpell.words": [
+        "UCSD"
+    ]
 }
