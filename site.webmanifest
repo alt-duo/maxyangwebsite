@@ -1,7 +1,7 @@
 {
     "name": "Max Yang's Website",
     "short_name": "Max Yang",
-    "description": "Max Yang, a 14-year-old boy from Lake Zurich who plays a violin and programs.",
+    "description": "Max Yang is a student researcher, violinist and programmer at Canyon Crest Academy in San Diego, and National President of AYLUS.",
     "start_url": "/",
     "display": "standalone",
     "prefer_related_applications": false,
