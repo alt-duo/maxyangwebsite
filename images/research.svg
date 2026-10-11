@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Helvetica, Arial, sans-serif">
+  <rect width="640" height="480" rx="28" fill="#596886"/>
+  <!-- faint ZIP-grid pattern -->
+  <g fill="#ffd5af" opacity="0.10">
+    <g id="row">
+      <circle cx="40" cy="40" r="6"/><circle cx="80" cy="40" r="6"/><circle cx="120" cy="40" r="6"/><circle cx="160" cy="40" r="6"/><circle cx="200" cy="40" r="6"/><circle cx="240" cy="40" r="6"/><circle cx="280" cy="40" r="6"/><circle cx="320" cy="40" r="6"/><circle cx="360" cy="40" r="6"/><circle cx="400" cy="40" r="6"/><circle cx="440" cy="40" r="6"/><circle cx="480" cy="40" r="6"/><circle cx="520" cy="40" r="6"/><circle cx="560" cy="40" r="6"/><circle cx="600" cy="40" r="6"/>
+    </g>
+    <use href="#row" y="400"/>
+  </g>
+
+  <text x="320" y="78" text-anchor="middle" fill="#ffd5af" font-size="18" letter-spacing="3">WHERE YOU LIVE → HOW HEALTHY YOU ARE</text>
+
+  <!-- exposures -->
+  <g font-size="18" font-weight="700" fill="#052b4a">
+    <rect x="48" y="120" width="250" height="58" rx="14" fill="#ffd5af"/>
+    <text x="173" y="156" text-anchor="middle">air pollution (PM2.5)</text>
+    <rect x="48" y="200" width="250" height="58" rx="14" fill="#ffd5af"/>
+    <text x="173" y="236" text-anchor="middle">green space (NDVI)</text>
+    <rect x="48" y="280" width="250" height="58" rx="14" fill="#ffd5af"/>
+    <text x="173" y="316" text-anchor="middle">neighborhood deprivation</text>
+  </g>
+
+  <!-- arrow -->
+  <g stroke="#ccac8f" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M310 229 H360"/>
+    <path d="M346 214 L362 229 L346 244"/>
+  </g>
+
+  <!-- outcomes -->
+  <g font-size="18" font-weight="700" fill="#ffffff">
+    <rect x="376" y="120" width="216" height="58" rx="14" fill="none" stroke="#ffd5af" stroke-width="3"/>
+    <text x="484" y="156" text-anchor="middle">asthma</text>
+    <rect x="376" y="200" width="216" height="58" rx="14" fill="none" stroke="#ffd5af" stroke-width="3"/>
+    <text x="484" y="236" text-anchor="middle">hypertension</text>
+    <rect x="376" y="280" width="216" height="58" rx="14" fill="none" stroke="#ffd5af" stroke-width="3"/>
+    <text x="484" y="316" text-anchor="middle">macular degeneration</text>
+  </g>
+
+  <text x="320" y="392" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700">NIH All of Us Research Program</text>
+  <text x="320" y="420" text-anchor="middle" fill="#ffd5af" font-size="16">hundreds of thousands of participants · mapped by 3-digit ZIP</text>
+</svg>
